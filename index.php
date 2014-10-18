@@ -68,3 +68,14 @@
 						-Historique
 						-Inscriptions et candidatures*/
 ?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title> Test </title>
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	</head>
+	<body>
+		<button type="button" class="btn btn-primary">Primary</button>
+	</body>
+</html>
