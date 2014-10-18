@@ -5,7 +5,7 @@
 			Couleurs à dominances noires et blanches avec des touches pourpres pour remonter la couleur ?
 	
 	Plan général du site :
-		Acueil
+		Accueil
 			-Présentation du site
 		Comices
 			Consul
