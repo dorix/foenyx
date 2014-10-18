@@ -66,6 +66,5 @@
 					//{Intégration et Histoire}(Intitulé à modifier)
 						-Actualités
 						-Historique
-						-Inscriptions et candidatures
-			*/
+						-Inscriptions et candidatures*/
 ?>
