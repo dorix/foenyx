@@ -22,6 +22,26 @@
 					->Liens externes
 				Marge du gabarit à droite
 					->Publicités ?*/
+		/*Plan résumé :
+				/
+					index
+					/Organisation
+						index
+						Consulat
+						/Fermiers
+							index
+							Levée
+						Comices
+					/Economie
+						index
+						/Intendant_General
+							index
+							{Activités Publiques}
+							{Activités Particulières}
+					/Civilite
+						index
+						Archives
+						Urbanisme*/
 		/*Plan détaillé :
 			Accueil
 				-En-tête
@@ -208,23 +228,3 @@
 						->Billets et commentaires (modéré par les sénateurs)
 					-Annexe
 						->Proposer un projet*/
-		/*Plan résumé :
-				/
-					index
-					/Organisation
-						index
-						Consulat
-						/Fermiers
-							index
-							Levée
-						Comices
-					/Economie
-						index
-						/Intendant_General
-							index
-							{Activités Publiques}
-							{Activités Particulières}
-					/Civilite
-						index
-						Archives
-						Urbanisme*/
