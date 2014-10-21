@@ -11,3 +11,9 @@
 {
 	background-color: #252525;
 }
+.avatar
+{
+	position: fixed;
+	left: 15.2%;
+	top: 4%;
+}

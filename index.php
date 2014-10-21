@@ -249,6 +249,7 @@
 			</div>
 			<div class="ligne"></div>
 			<div class="avatar col-sm-1">
+			<img src="avatar.png"/>
 			</div>
 		</header>
 	</body>
