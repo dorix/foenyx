@@ -243,9 +243,9 @@
     </head>
 
     <body>
-		<header class="row">
+		<header class="row gris35">
 			<div class="col-sm-2 screen">
-			<h1>SCREENS QUI DEFILENT</h1>
+			<h1 style="color: #808080;">SCREENS QUI DEFILENT</h1>
 			</div>
 			<div class="ligne"></div>
 			<div class="avatar col-sm-1">
