@@ -252,6 +252,19 @@
 			<img src="avatar.png"/>
 			</div>
 			<div class="ligne2"></div>
+			<div class="usrinfo col-sm-2">
+			<h4 style="font-size: 22px;">Dorix</h4>
+			<div><h4 style="font-size: 18px;">Postes : </h4>
+			<h5>Citoyen</h5>
+			<h5>Consul</h5>
+			<h5>Stratège</h5>
+			</div>
+			</div>
+			<div class="usrinfo2 col-sm-2">
+			</br>
+			</br>
+			<h5><strong>MPs non lus : </strong></br>Aucuns</h5>
+			</div>
 		</header>
 	</body>
 </html>

@@ -24,5 +24,24 @@
 	top: 2%;
 	width: 3px;
 	height: 117px;
-	background-color: #808080;
+	background-color: #800080;
+}
+.pourpre
+{
+	color: #800080;
+}
+p
+{
+	font-size: 15px;
+	color: #F0F0F0;
+}
+.usrinfo
+{
+	left: 9%;
+	color: #F0F0F0;
+}
+.usrinfo2
+{
+	left: 0%;
+	color: #F0F0F0;
 }
