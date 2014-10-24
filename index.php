@@ -3,6 +3,9 @@
 		/*Charte graphique :
 			Ambiance : Calme, rigueur, sérieux (type journal/thèse)
 				Blanc et noir relevé de pourpre
+				pourpre 1 : #800080
+				pourpre 2 : #350035
+				
 			Proposition de plan de page :
 				Barre horizontale fixée en haut délimitée par une barre horizontale épaisse noire
 					->Informations personnelles, membres connectés etc. (si l'utilisateur est connecté)
@@ -228,3 +231,25 @@
 						->Billets et commentaires (modéré par les sénateurs)
 					-Annexe
 						->Proposer un projet*/
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ANSI" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Foenyx</title>
+    </head>
+
+    <body>
+		<header class="row">
+			<div class="col-sm-2 screen">
+			<h1>SCREENS QUI DEFILENT</h1>
+			</div>
+			<div class="ligne"></div>
+			<div class="avatar col-sm-1">
+			</div>
+		</header>
+	</body>
+</html>
