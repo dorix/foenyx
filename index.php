@@ -256,7 +256,7 @@
     </head>
 
     <body>
-		<div id="page"/>
+		<div id="page">
 			
 			<div id="ligne_verticale"></div>
 			<div id="ligne_horizontale"></div>
