@@ -174,7 +174,7 @@
 		background-color : #AAAAAA;
 	}
 	.ligne_menu_intendance:hover {
-		width : 600px;
+		width : 400px;
 		background-color : #AAAAAA;
 	}
 	.ligne_menu {
@@ -259,10 +259,10 @@
 			left : 240px;
 		}
 		#deuxieme_menu{
-			left : 450px;
+			left : 440px;
 		}
 		#troisieme_menu {
-			left : 660px;
+			left : 650px;
 		}
 		#section_gauche{
 			width : 200px;
@@ -286,10 +286,10 @@
 			left : 240px;
 		}
 		#deuxieme_menu {
-			left : 450px;
+			left : 440px;
 		}
 		#troisieme_menu {
-			left : 660px;
+			left : 650px;
 		}
 		#section_gauche{
 			width : 200px;
@@ -313,10 +313,10 @@
 			left : 290px;
 		}
 		#deuxieme_menu {
-			left : 510px;
+			left : 500px;
 		}
 		#troisieme_menu {
-			left : 730px;
+			left : 720px;
 		}
 		#section_gauche{
 			width : 250px;

@@ -326,28 +326,13 @@
 									<p><a href="index.php">Intendance Générale</a></p>
 								</th>
 								<td>
-									<p><a href="index.php">Académie de Foenyx</a>(P)</p>
-								</td>
-								<td>
-									<p><a href="index.php">Nature et Découvertes</a></p>
+									<p><a href="index.php">Activités publiques</a></p>
 								</td>
 							</tr>
 							<tr>
 								<td></td>
 								<td>
-									<p><a href="index.php">Les Mines</a>(P)</p>
-								</td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>
-									<p><a href="index.php">Réseau des Transports Publics</a>(P)</p>
-								</td>
-							</tr>
-							<tr>
-								<td></td>
-								<td>
-									<p><a href="index.php">Réseau de l'Énergie Publique</a>(P)</p>
+									<p><a href="index.php">Activités particulières</a></p>
 								</td>
 							</tr>
 						</table>
