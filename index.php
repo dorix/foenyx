@@ -267,7 +267,7 @@
 				</div>
 				
 				<div id="conteneur_avatar">
-					<img class="avatar_bannierre" alt="Pseudonyme" src="avatar.png"></img>
+					<img class="avatar_bannierre" alt="Pseudonyme" src="rioxo.png"></img>
 				</div>
 				
 				<div id="conteneur_informations_entete">
