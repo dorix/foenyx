@@ -102,12 +102,10 @@
 	#premier_menu h1, #deuxieme_menu h1, #troisieme_menu h1 {
 		margin-top : 2px;
 	}
-	#premier_menu h1 a, #deuxieme_menu h1 a, #troisieme_menu h1 a {
-		color : #350035;
-	}
 	#premier_menu:hover {
 		height : 250px;
 		border-left : 5px solid #350035;
+		overflow : visible;
 	}
 	#deuxieme_menu:hover {
 		height : 150px;
@@ -119,11 +117,21 @@
 		border-left : 5px solid #350035;
 	}
 	
+	nav a {
+		color : #350035;
+	}
 	nav th {
+		text-align : justify;
+	}
+	
+	.ligne_menu_fermiers th{
 		width : 200px;
-		padding : 0;
+	}
+	.ligne_menu_fermiers table {
+		width : 600px;
 	}
 	.ligne_menu_fermiers {
+		width : 200px;
 		overflow : hidden;
 		transition-property : all;
 		transition-duration : 2s;
@@ -138,8 +146,14 @@
 		-moz-transition-duration : 2s;
 		-moz-transition-function : linear, linear;
 	}
+	.ligne_menu_intendance th{
+		width : 200px;
+	}
+	.ligne_menu_intendance table {
+		width : 600px;
+	}
 	.ligne_menu_intendance{
-		width : 80px;
+		width : 200px;
 		overflow : hidden;
 		transition-property : all;
 		transition-duration : 2s;
@@ -156,10 +170,11 @@
 	}
 	.ligne_menu_fermiers:hover {
 		width : 400px;
+		overflow : visible;
 		background-color : #AAAAAA;
 	}
 	.ligne_menu_intendance:hover {
-		width : 300px;
+		width : 600px;
 		background-color : #AAAAAA;
 	}
 	.ligne_menu {
