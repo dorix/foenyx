@@ -11,7 +11,7 @@
 		height : 100%;
 		top : 0;
 		background-color : #FFAA55;
-		width : 30px;
+		width : 40px;
 		z-index : 2;
 		
 		transition-property : all;
@@ -33,7 +33,7 @@
 		top : 100px;
 		left : 0;
 		background-color : #FFAA55;
-		height : 30px;
+		height : 40px;
 		
 		transition-property : all;
 		transition-duration : 2s;
@@ -74,10 +74,11 @@
 	
 	#premier_menu , #deuxieme_menu, #troisieme_menu{
 		position : fixed;
-		top : 130px;
-		height : 75px;
+		top : 100px;
+		height : 40px;
 		width : 200px;
-		background-color : #350035;
+		background-color : #FFAA55;
+		border-right : 5px solid #350035;
 		overflow : hidden;
 		z-index : 2;
 		
@@ -98,19 +99,31 @@
 		-moz-transition-duration : 2s;
 		-moz-transition-function : linear, linear;
 	}
+	#premier_menu h1, #deuxieme_menu h1, #troisieme_menu h1 {
+		margin-top : 2px;
+	}
+	#premier_menu h1 a, #deuxieme_menu h1 a, #troisieme_menu h1 a {
+		color : #350035;
+	}
 	#premier_menu:hover {
 		height : 250px;
+		border-left : 5px solid #350035;
 	}
 	#deuxieme_menu:hover {
 		height : 150px;
 		overflow : visible;
+		border-left : 5px solid #350035;
 	}
 	#troisieme_menu:hover{
 		height : 180px;
+		border-left : 5px solid #350035;
 	}
 	
+	nav th {
+		width : 200px;
+		padding : 0;
+	}
 	.ligne_menu_fermiers {
-		width : 70px;
 		overflow : hidden;
 		transition-property : all;
 		transition-duration : 2s;
@@ -142,17 +155,34 @@
 		-moz-transition-function : linear, linear;
 	}
 	.ligne_menu_fermiers:hover {
-		width : 150px;
+		width : 400px;
 		background-color : #AAAAAA;
 	}
 	.ligne_menu_intendance:hover {
 		width : 300px;
 		background-color : #AAAAAA;
 	}
+	.ligne_menu {
+		transition-property : all;
+		transition-duration : 2s;
+		transition-function : linear, linear;
+		-webkit-transition-property : all;
+		-webkit-transition-duration : 2s;
+		-webkit-transition-function : linear, linear;
+		-khtml-transition-property : all;
+		-khtml-transition-duration : 2s;
+		-khtml-transition-function : linear, linear;
+		-moz-transition-property : all;
+		-moz-transition-duration : 2s;
+		-moz-transition-function : linear, linear;
+	}
+	.ligne_menu:hover {
+		background-color : #AAAAAA;
+	}
 	
 	#section_gauche{
 		position : fixed;
-		top : 130px;
+		top : 140px;
 		bottom : 0;
 		padding : 10px;
 		overflow : scroll;
@@ -191,7 +221,7 @@
 		background-color : #350035;
 		width : 100%;
 		height : 250px;
-		margin-top : 50px;
+		margin-top : 10px;
 		margin-left : -10px;
 		padding-left : 0;
 		
@@ -211,13 +241,13 @@
 			left : 200px;
 		}
 		#premier_menu {
-			left : 230px;
+			left : 240px;
 		}
 		#deuxieme_menu{
-			left : 440px;
+			left : 450px;
 		}
 		#troisieme_menu {
-			left : 650px;
+			left : 660px;
 		}
 		#section_gauche{
 			width : 200px;
@@ -238,13 +268,13 @@
 			left : 200px;
 		}
 		#premier_menu {
-			left : 230px;
+			left : 240px;
 		}
 		#deuxieme_menu {
-			left : 440px;
+			left : 450px;
 		}
 		#troisieme_menu {
-			left : 650px;
+			left : 660px;
 		}
 		#section_gauche{
 			width : 200px;
@@ -265,13 +295,13 @@
 			left : 250px;
 		}
 		#premier_menu {
-			left : 280px;
+			left : 290px;
 		}
 		#deuxieme_menu {
-			left : 500px;
+			left : 510px;
 		}
 		#troisieme_menu {
-			left : 720px;
+			left : 730px;
 		}
 		#section_gauche{
 			width : 250px;
