@@ -1,5 +1,9 @@
 @media(min-width:800px) {
-	html, body, #page {height : 100%;}
+	html, body, #page 
+	{
+		height : 100%;
+		background-color : #AAAAAA;
+	}
 	#page{position : relative;}
 	
 	#ligne_verticale {
