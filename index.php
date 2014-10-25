@@ -263,6 +263,7 @@
 			
 			<header>
 				<div id="conteneur_screens">
+					<img class="screens_defilants" alt="Bienvenue sur Foenyx" src=""></img>
 				</div>
 				
 				<div id="conteneur_avatar">
