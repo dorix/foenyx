@@ -61,17 +61,17 @@
 	.screens_defilants {
 		height : 100px;
 		overflow : hidden;
-		animation: defilement_screens 1000s linear 2s infinite alternate;
-		-webkit-animation: defilement_screens 1000s linear 2s infinite alternate;
+		animation: defilement_screens 100s linear 2s infinite alternate;
+		-webkit-animation: defilement_screens 100s linear 2s infinite alternate;
 	}
 	@keyframes defilement_screens {
 		0% {margin-left : 0px;}
-		50% {margin-left : -3875px;}
+		50% {margin-left : -699.2px;}
 		100% {margin-left : 0px;}
 	}
 	@-webkit-keyframes defilement_screens {
 		0% {margin-left : 0px;}
-		50% {margin-left : -3875px;}
+		50% {margin-left : -699.2px;}
 		100% {margin-left : 0px;}
 	}
 	
