@@ -66,12 +66,12 @@
 	}
 	@keyframes defilement_screens {
 		0% {margin-left : 0px;}
-		50% {margin-left : -699.2px;}
+		50% {margin-left : -524.4px;}
 		100% {margin-left : 0px;}
 	}
 	@-webkit-keyframes defilement_screens {
 		0% {margin-left : 0px;}
-		50% {margin-left : -699.2px;}
+		50% {margin-left : -524.4px;}
 		100% {margin-left : 0px;}
 	}
 	
