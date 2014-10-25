@@ -250,6 +250,19 @@
 		left : 0;
 		background-color : #350035;
 		color : #FFFFFF;
+		
+		transition-property : all;
+		transition-duration : 2s;
+		transition-function : linear, linear;
+		-webkit-transition-property : all;
+		-webkit-transition-duration : 2s;
+		-webkit-transition-function : linear, linear;
+		-khtml-transition-property : all;
+		-khtml-transition-duration : 2s;
+		-khtml-transition-function : linear, linear;
+		-moz-transition-property : all;
+		-moz-transition-duration : 2s;
+		-moz-transition-function : linear, linear;
 	}
 	.commentaire_gauche {
 		margin-left : 25px;
@@ -276,7 +289,7 @@
 		-moz-transition-duration : 2s;
 		-moz-transition-function : linear, linear;
 	}
-	nav:hover ~section{opacity : 0.5;}
+	nav:hover ~section, nav:hover ~#section_gauche{opacity : 0.5;}
 	
 	#bannierre {
 		background-color : #350035;
