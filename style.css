@@ -49,6 +49,51 @@
 		-moz-transition-function : linear, linear;
 	}
 	
+	#conteneur_screens {
+		top : 0;
+		left : 0;
+		height : 100px;
+		margin : 0;
+		padding : 0;
+		overflow : hidden;
+		color : #FFFFFF;
+	}
+	.screens_defilants {
+		height : 100px;
+		overflow : hidden;
+		animation: defilement_screens 1000s linear 2s infinite alternate;
+		-webkit-animation: defilement_screens 1000s linear 2s infinite alternate;
+	}
+	@keyframes defilement_screens {
+		0% {margin-left : 0px;}
+		50% {margin-left : -3875px;}
+		100% {margin-left : 0px;}
+	}
+	@-webkit-keyframes defilement_screens {
+		0% {margin-left : 0px;}
+		50% {margin-left : -3875px;}
+		100% {margin-left : 0px;}
+	}
+	
+	#conteneur_avatar {
+		height : 75px;
+		width : 190px;
+		position : fixed;
+		top : 12.5px;
+		margin : 0;
+		padding :0;
+		overflow : hidden;
+		border-right : 2px solid #FFFFFF;
+	}
+	.avatar_bannierre {
+		width : 75px;
+		height : 75px;
+		
+		border-radius : 50%;
+		-webkit-border-radius : 50%;
+		-moz-border-radius : 50%;
+	}
+	
 	header {
 		background-color : #350035;
 		position : fixed;
@@ -71,33 +116,7 @@
 		-moz-transition-duration : 2s;
 		-moz-transition-function : linear, linear;
 	}
-	#conteneur_screens {
-		top : 0;
-		left : 0;
-		height : 100px;
-		margin : 0;
-		padding : 0;
-		overflow : hidden;
-		color : #FFFFFF;
-	}
-	.screens_defilants {
-		height : 100px;
-		overflow : hidden;
-		animation : defilement_screens 120s;
-		animation-iteration-count : infinite;
-		-webkit-animation-iteration-count : infinite;
-		-webkit-animation : defilement_screens 30s;
-	}
-	@keyframes defilement_screens {
-		0% {margin-left : 0px;}
-		50% {margin-left : -3875px;}
-		100% {margin-left : 0px;}
-	}
-	@-webkit-keyframes defilement_screens {
-		0% {margin-left : 0px;}
-		50% {margin-left : -3875px;}
-		100% {margin-left : 0px;}
-	}
+	
 	
 	#premier_menu , #deuxieme_menu, #troisieme_menu{
 		position : fixed;
@@ -286,6 +305,9 @@
 		#conteneur_screens {
 			width : 200px;
 		}
+		#conteneur_avatar {
+			left : 252.5px;
+		}
 		
 		#premier_menu {
 			left : 240px;
@@ -314,8 +336,12 @@
 		#ligne_verticale {
 			left : 200px;
 		}
+		
 		#conteneur_screens {
 			width : 200px;
+		}
+		#conteneur_avatar {
+			left : 252.5px;
 		}
 		
 		#premier_menu {
@@ -345,8 +371,12 @@
 		#ligne_verticale {
 			left : 250px;
 		}
+		
 		#conteneur_screens {
 			width : 250px;
+		}
+		#conteneur_avatar {
+			left : 302.5px;
 		}
 		
 		#premier_menu {

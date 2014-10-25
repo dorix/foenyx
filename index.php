@@ -263,10 +263,11 @@
 			
 			<header>
 				<div id="conteneur_screens">
-					<img class="screens_defilants" alt="Bienvenue sur Foenyx" src=""></img>
+					<img class="screens_defilants" alt="Bienvenue sur Foenyx" src="screens_defilants.png"></img>
 				</div>
 				
 				<div id="conteneur_avatar">
+					<img class="avatar_bannierre" alt="Pseudonyme" src="avatar.png"></img>
 				</div>
 				
 				<div id="conteneur_informations_entete">
