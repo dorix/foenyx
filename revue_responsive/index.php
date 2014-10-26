@@ -207,7 +207,7 @@
 										<img src="images/reijo.png" class="image_entete"/>
 									</td>
 									<td>
-										<img src="images/avatar.png" class="image_entete"/>
+										<img src="images/dorix.png" class="image_entete"/>
 									</td>
 									<td>
 										<img src="images/reijo.png" class="image_entete"/>
@@ -216,10 +216,10 @@
 										<img src="images/avatar.png" class="image_entete"/>
 									</td>
 									<td>
-										<img src="images/reijo.png" class="image_entete"/>
+										<img src="images/dorix.png" class="image_entete"/>
 									</td>
 									<td>
-										<img src="images/avatar.png" class="image_entete"/>
+										<img src="images/dorix.png" class="image_entete"/>
 									</td>
 									<td>
 										<img src="images/reijo.png" class="image_entete"/>
@@ -236,7 +236,7 @@
 										<img src="images/reijo.png" class="image_entete"/>
 									</td>
 									<td>
-										<img src="images/avatar.png" class="image_entete"/>
+										<img src="images/dorix.png" class="image_entete"/>
 									</td>
 									<td>
 										<img src="images/reijo.png" class="image_entete"/>
@@ -245,19 +245,19 @@
 										<img src="images/avatar.png" class="image_entete"/>
 									</td>
 									<td>
-										<img src="images/reijo.png" class="image_entete"/>
+										<img src="images/dorix.png" class="image_entete"/>
 									</td>
 									<td>
 										<img src="images/avatar.png" class="image_entete"/>
 									</td>
 									<td>
-										<img src="images/reijo.png" class="image_entete"/>
+										<img src="images/dorix.png" class="image_entete"/>
 									</td>
 									<td>
 										<img src="images/avatar.png" class="image_entete"/>
 									</td>
 									<td>
-										<img src="images/reijo.png" class="image_entete"/>
+										<img src="images/dorix.png" class="image_entete"/>
 									</td>
 									<td>
 										<img src="images/avatar.png" class="image_entete"/>
@@ -283,10 +283,44 @@
 									<img src="images/reijo.png" class="image_entete"/>
 								</td>
 								<td>
-									<img src="images/avatar.png" class="image_entete"/>
+									<img src="images/dorix.png" class="image_entete"/>
 								</td>
 								<td>
 									<img src="images/reijo.png" class="image_entete"/>
+								</td>
+								<td>
+									<img src="images/dorix.png" class="image_entete"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="images/dorix.png" class="image_entete"/>
+								</td>
+								<td>
+									<img src="images/reijo.png" class="image_entete"/>
+								</td>
+								<td>
+									<img src="images/avatar.png" class="image_entete"/>
+								</td>
+								<td>
+									<img src="images/dorix.png" class="image_entete"/>
+								</td>
+								<td>
+									<img src="images/avatar.png" class="image_entete"/>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<img src="images/dorix.png" class="image_entete"/>
+								</td>
+								<td>
+									<img src="images/reijo.png" class="image_entete"/>
+								</td>
+								<td>
+									<img src="images/avatar.png" class="image_entete"/>
+								</td>
+								<td>
+									<img src="images/dorix.png" class="image_entete"/>
 								</td>
 								<td>
 									<img src="images/avatar.png" class="image_entete"/>
@@ -300,7 +334,7 @@
 									<img src="images/reijo.png" class="image_entete"/>
 								</td>
 								<td>
-									<img src="images/avatar.png" class="image_entete"/>
+									<img src="images/dorix.png" class="image_entete"/>
 								</td>
 								<td>
 									<img src="images/reijo.png" class="image_entete"/>
@@ -314,41 +348,7 @@
 									<img src="images/avatar.png" class="image_entete"/>
 								</td>
 								<td>
-									<img src="images/reijo.png" class="image_entete"/>
-								</td>
-								<td>
-									<img src="images/avatar.png" class="image_entete"/>
-								</td>
-								<td>
-									<img src="images/reijo.png" class="image_entete"/>
-								</td>
-								<td>
-									<img src="images/avatar.png" class="image_entete"/>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="images/avatar.png" class="image_entete"/>
-								</td>
-								<td>
-									<img src="images/reijo.png" class="image_entete"/>
-								</td>
-								<td>
-									<img src="images/avatar.png" class="image_entete"/>
-								</td>
-								<td>
-									<img src="images/reijo.png" class="image_entete"/>
-								</td>
-								<td>
-									<img src="images/avatar.png" class="image_entete"/>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<img src="images/avatar.png" class="image_entete"/>
-								</td>
-								<td>
-									<img src="images/reijo.png" class="image_entete"/>
+									<img src="images/dorix.png" class="image_entete"/>
 								</td>
 								<td>
 									<img src="images/avatar.png" class="image_entete"/>
