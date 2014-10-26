@@ -11,6 +11,8 @@
 	}
 
 	* {
+		font-family : Arial;
+		
 		transition-property : all;
 		transition-duration : 1s;
 		transition-function : linear, linear;
