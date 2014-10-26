@@ -1,6 +1,5 @@
 @media(min-width:800px) {
-	html, body, #page 
-	{
+	html, body, #page  {
 		height : 100%;
 		background-color : #AAAAAA;
 	}
@@ -12,7 +11,7 @@
 		top : 0;
 		background-color : #FFAA55;
 		width : 40px;
-		z-index : 2;
+		z-index : 3;
 		
 		transition-property : all;
 		transition-duration : 2s;
@@ -34,6 +33,7 @@
 		left : 0;
 		background-color : #FFAA55;
 		height : 40px;
+		z-index : 2;
 		
 		transition-property : all;
 		transition-duration : 2s;
@@ -61,8 +61,8 @@
 	.screens_defilants {
 		height : 100px;
 		overflow : hidden;
-		animation: defilement_screens 100s linear 2s infinite alternate;
-		-webkit-animation: defilement_screens 100s linear 2s infinite alternate;
+		animation: defilement_screens 20s linear 0s infinite alternate;
+		-webkit-animation: defilement_screens 20s linear 0s infinite alternate;
 	}
 	@keyframes defilement_screens {
 		0% {margin-left : 0px;}
@@ -93,6 +93,56 @@
 		-webkit-border-radius : 50%;
 		-moz-border-radius : 50%;
 	}
+	#conteneur_avatar table {
+		padding : 0;
+		margin : 0;
+		border-collapse : collapse;
+		margin-top : -12.5px;
+		height : 100px;
+		width : 100px;
+		float : right ;
+	}
+	#conteneur_avatar tbody tr {
+		height : 25px;
+		margin : 0;
+		padding : 0;
+		display : block;
+	}
+	#conteneur_avatar tbody td {
+		padding : 0;
+		margin : 0;
+		color : #FFFFFF;
+	}
+	#conteneur_avatar a {
+		color : #DDDDDD;
+	}
+	
+	#conteneur_messages_entete {
+		position : fixed;
+		top : 0;
+		height : 100px;
+		margin : 0;
+		overflow : hidden;
+		padding-left : 5px;
+	}
+	#messages_entete {
+		color : #FFFFFF;
+		animation : defilement_messages 20s linear 0s infinite alternate;
+		-webkit-animation : defilement_messages 20s linear 0s infinite alternate;
+	}
+	#messages_entete a {
+		color : #FFFFFF;
+	}
+	@keyframes defilement_messages {
+		0% {margin-top : 0px;}
+		50% {margin-top : -87.5px;}
+		100% {margin-top : -175px;}
+	}
+	@-webkit-keyframes defilement_messages {
+		0% {margin-top : 0px;}
+		50% {margin-top : -87.5px;}
+		100% {margin-top : -175px;}
+	}
 	
 	header {
 		background-color : #350035;
@@ -101,7 +151,7 @@
 		left : 0;
 		height : 100px;
 		width : 100%;
-		z-index : 1;
+		z-index : 2;
 		
 		transition-property : all;
 		transition-duration : 2s;
@@ -126,7 +176,7 @@
 		background-color : #FFAA55;
 		border-right : 5px solid #350035;
 		overflow : hidden;
-		z-index : 2;
+		z-index : 3;
 		
 		-webkit-border-bottom-right-radius : 20px;
 		-moz-border-radius-bottomright : 20px;
@@ -275,6 +325,7 @@
 		top : 205px;
 		margin : 0;
 		padding : 0;
+		z-index : 1;
 		
 		transition-property : all;
 		transition-duration : 2s;
@@ -307,6 +358,26 @@
 		border-bottom-right-radius: 20px;
 	}
 	
+	#corps {
+		width : 60%;
+		margin : 30px;
+		border-right : 2px solid black;
+		float : left;
+	}
+	.commentaire_corps {
+		margin-left : 30px;
+		background-color : #555555;
+		color : #FFFFFF;
+	}
+	
+	#section_pub {
+		position : absolute;
+		right : 0;
+		top : 205px;
+		z-index : 0;
+		text-align : right;
+	}
+	
 	@media(max-width : 1000px) {
 		#page  {
 			width : 800px;
@@ -320,6 +391,10 @@
 		}
 		#conteneur_avatar {
 			left : 252.5px;
+		}
+		#conteneur_messages_entete {
+			left : 442.5px;
+			width : 420px;
 		}
 		
 		#premier_menu {
@@ -356,6 +431,10 @@
 		#conteneur_avatar {
 			left : 252.5px;
 		}
+		#conteneur_messages_entete {
+			left : 442.5px;
+			width : 420px;
+		}
 		
 		#premier_menu {
 			left : 240px;
@@ -390,6 +469,10 @@
 		}
 		#conteneur_avatar {
 			left : 302.5px;
+		}
+		#conteneur_messages_entete {
+			left : 492.5px;
+			width : 440px;
 		}
 		
 		#premier_menu {

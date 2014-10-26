@@ -267,13 +267,37 @@
 				</div>
 				
 				<div id="conteneur_avatar">
-					<img class="avatar_bannierre" alt="Pseudonyme" src="rioxo.png"></img>
+					<table>
+						<tr>
+							<td><p><strong><a href="index.php" title="Modifier le profil">Reijo</a></strong></p></td>
+						</tr>
+						<tr>
+							<td><p>Clan <!--Parti--> : <a href="index.php">CGT</a></p></td>
+						</tr>
+						<tr>
+							<td><p><a href="index.php" style="font-size:75%;">Déconnexion</a></p></td>
+						</tr>
+					</table>
+					<img class="avatar_bannierre" alt="Reijo" src="rioxo.png"></img>
+				</div>
+				
+				
+				
+				<div id="conteneur_messages_entete">
+					<div id="messages_entete">
+						<p><strong><a href="index.php">Objet</a></strong> par <strong>John Doe</strong> :</p>
+						<p>Coucou, ceci est un petit message</p>
+						<hr/>
+						<p><strong><a href="index.php">Lorem Ipsum</a></strong> par <strong>Doe John</strong> :</p>
+						<p>Lorem Ipsum message</p>
+						<hr/>
+						<p><strong><a href="index.php">Troisieme Message</a></strong> par <strong>Inconnu</strong> :</p>
+						<p>Un petit troisième message</p>
+						<hr/>
+					</div>
 				</div>
 				
 				<div id="conteneur_informations_entete">
-				</div>
-				
-				<div id="conteneur_messages_entete">
 				</div>
 				
 				<div id="conteneur_utilisateurs_connectes_entete">
@@ -453,9 +477,59 @@
 				</div>
 				
 				<div id="corps">
+					<div class="billet_corps">
+						<h1>Billet de banque</h1>
+						<p>Le billet de banque a été inventé par Louis XIV pour simplifier les transactions : les banques concervaient l'or dans des coffres-forts, et offraient aux dépositaires un reçu censé garantir l'existence de l'or dans les coffres, de telle sorte qu'il suffisait de se présenter à la banque armé de son billet pour recevoir la somme d'or précisée sur le billet. Mais le manque de minerais et l'essor économique de l'ère moderne a grandement compliqué l'usage des pièces d'or, si bien que très vite, on a pris ces billets pour l'or qu'ils représentaient, et le billet de banque a peu à peu remplacé l'étalon d'or.</p>
+						<p>
+							<strong>Marius</strong>
+							<hr/>
+							<em>24/10/2014, 9:51</em>
+						</p>
+						<div class="commentaire_corps">
+							<p>
+								<hr/>
+								<strong>John Doe :</strong>
+								Bah c'est moins abscons quand c'est en français !
+								<em>24/10/2014, 9:53</em>
+							</p>
+							<p>
+								<hr/>
+								<strong>Jean Smith :</strong>
+								C'est toi qu'es con oui !
+								<em>24/10/2014, 9:55</em>
+							</p>
+							<p>
+								<hr/>
+								<strong>Doe John :</strong>
+								Abscons c'est plus-ou-moins synonyme de "tordu" ou "difficile à comprendre" en philosophie, Jean : c'est pas contre toi ! <br/>
+								Mais c'est surtout moins abscons quand tous les mots sont là...
+								<em>24/10/2014, 9:57</em>
+							</p>
+							<p>
+								<hr/>
+								<strong>Jean Smith :</strong>
+								Enfin n'empêche que John il est con.
+								<em>24/10/2014, 9:55</em>
+							</p>
+							<p>
+								<hr/>
+								<strong>Lambda Dupont</strong>
+								F'aut dire qu'il ne s'est pas foulé pour chercher son pseudo !
+								<em>24/10/2014, 10:03</em>
+							</p>
+							<form method="POST" action="index.php">
+								<fieldset>
+									<input type="Hidden" name="article" value="1"/>
+									<textarea style="resize:none" placeholder="Commentez !"></textarea>
+									<input type="Submit" value="Commenter"/>
+								</fieldset>
+							</form>
+						</div>
+					</div>
 				</div>
 				
 				<div id="annexes">
+					<h1>Ceci est la partie droite</h1>
 				</div>
 			</section>
 			
@@ -464,6 +538,12 @@
 		</div>
 			
 		<div id="section_pub">
+			<p><a href="pub.png">
+				<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYiPARbu4bpobBHxCY33ADM4_iJ_-i4WSE9pSAI5cyy38jkIgM"/>
+			</a></p>
+			<p><a href="pub.png">
+				<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEPOLt90m_ss_zNU5gKnW6NRXuCt--AicDfp0VPThtOdDu8i8w"/>
+			</a></p>
 		</div>
 	
 	</body>
