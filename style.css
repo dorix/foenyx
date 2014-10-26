@@ -5,6 +5,10 @@
 	}
 	#page{position : relative;}
 	
+	a {
+		text-decoration : none;
+	}
+	
 	#ligne_verticale {
 		position : fixed;
 		height : 100%;
