@@ -408,10 +408,18 @@
 				</article>
 				
 				<aside>
+					<p>Test</p>
 				</aside>
 				
 			</section>
 			
 		</div>
+		<div style="position:fixed; left:800px; background-color:#000000; width:5px;height:100%; top:0; z-index:10000;"></div>
+		
+		<div id="pub">
+			<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYiPARbu4bpobBHxCY33ADM4_iJ_-i4WSE9pSAI5cyy38jkIgM"/><p></p>
+			<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEPOLt90m_ss_zNU5gKnW6NRXuCt--AicDfp0VPThtOdDu8i8w"/>
+		</div>
+		
 	</body>
 </html>
