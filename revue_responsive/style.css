@@ -1,31 +1,33 @@
-body {
-	background-color : #350035;
-}
-#page {
-	background-color : #FFFFFF;
-	position : absolute;
-	bottom : 0;
-	overflow : scroll;
-	z-index : 10;
-}
+@media (min-width : 800px) {
+	body {
+		background-color : #350035;
+	}
+	#page {
+		background-color : #FFFFFF;
+		position : absolute;
+		bottom : 0;
+		overflow : scroll;
+		z-index : 10;
+	}
 
-* {
-	transition-property : all;
-	transition-duration : 1s;
-	transition-function : linear, linear;
-	-webkit-transition-property : all;
-	-webkit-transition-duration : 1s;
-	-webkit-transition-function : linear, linear;
-	-khtml-transition-property : all;
-	-khtml-transition-duration : 1s;
-	-khtml-transition-function : linear, linear;
-	-moz-transition-property : all;
-	-moz-transition-duration : 1s;
-	-moz-transition-function : linear, linear;
-}
+	* {
+		transition-property : all;
+		transition-duration : 1s;
+		transition-function : linear, linear;
+		-webkit-transition-property : all;
+		-webkit-transition-duration : 1s;
+		-webkit-transition-function : linear, linear;
+		-khtml-transition-property : all;
+		-khtml-transition-duration : 1s;
+		-khtml-transition-function : linear, linear;
+		-moz-transition-property : all;
+		-moz-transition-duration : 1s;
+		-moz-transition-function : linear, linear;
+	}
 
-a {
-	text-decoration : none;
+	a {
+		text-decoration : none;
+	}
 }
 
 @media (min-width : 800px) and (max-width : 1100px) {
@@ -203,6 +205,10 @@ a {
 		100% {margin-top : -175px;}
 	}
 	
+	#utilisateurs_connectes_banniere {
+		display : none;
+	}
+	
 	/*Derniers posts*/
 	
 	#section_derniers_posts {
@@ -334,6 +340,330 @@ a {
 		position : fixed;
 		top : 150px;
 		left : 800px;
+		text-align : right;
+	}
+}
+
+@media (min-width : 1100px) {
+	#page {
+		left : 340px;
+		top : 140px;
+		width : 778px;
+	}
+	
+	#ligne_verticale, #ligne_horizontale {
+		position : fixed;
+		background-color : #FFAA55;
+		z-index : 100;
+	}
+	#ligne_verticale {
+		top : 0;
+		left : 300px;
+		height : 100%;
+		width : 40px;
+	}
+	#ligne_horizontale {
+		top : 100px;
+		left : 0;
+		height : 40px;
+		width : 100%;
+	}
+	
+	/*Menu*/
+	
+	nav {
+		position : fixed;
+		top : 100px;
+		height : 40px;
+		width : 245px;
+		border-right : 5px solid #300030;
+		background-color : #FFAA55;
+		z-index : 10000;
+		overflow : hidden;
+		
+		border-bottom-right-radius : 20px;
+		-webkit-border-bottom-right-radius : 20px;
+		-khtml-border-botom-right-radius : 20px;
+		-moz-border-radius-bottomright : 20px;
+	}
+	nav:hover {
+		height : 150px;
+	}
+	nav:hover ~* {
+		opacity : 0.5;
+	}
+	nav h1 {
+		margin : 0;
+		padding : 0;
+		padding-top : 5px;
+	} nav a {
+		color : #300030;
+	}
+	#menu_un {
+		left : 340px;
+	} #menu_deux {
+		left : 595px;
+	} #menu_trois {
+		left : 850px;
+	}
+	.ligne_menu {
+		position : relative;
+		top : 10px;
+		height : 36px;
+		margin : -15px 0px 0px 0px;
+		padding : 0;
+	}
+	.ligne_menu:hover {
+		background-color : #AAAAAA;
+	}
+	
+	/*Bannière*/
+	
+	#div_images_defilantes_banniere {
+		position : fixed;
+		top : 0;
+		left : 0;
+		height : 100px;
+		width : 300px;
+		margin : 0;
+		padding : 0;
+		overflow : hidden;
+	}
+	#screens_defilants_banniere {
+		height : 100px;
+		animation: defilement_screens 20s linear 0s infinite;
+		-webkit-animation: defilement_screens 20s linear 0s infinite;
+	}
+	@keyframes defilement_screens {
+		0% {margin-left : 0px;}
+		50% {margin-left : -524.4px;}
+		100% {margin-left : 0px;}
+	}
+	@-webkit-keyframes defilement_screens {
+		0% {margin-left : 0px;}
+		50% {margin-left : -524.4px;}
+		100% {margin-left : 0px;}
+	}
+	
+	#donnees_utilisateur_banniere {
+		position : fixed;
+		top : 0;
+		left : 340px;
+		height : 100px;
+		width : 578px;
+		background-color : #350035;
+		color : #FFFFFF;
+		z-index : 9;
+	}
+	#donnees_utilisateur_banniere a {
+		color : #AAAAAA;
+	}
+	
+	#avatar_banniere {
+		position : fixed;
+		top : 12.5px;
+		left : 352.5px;
+		height : 75px;
+		width : 75px;
+		
+		border-radius : 5px;
+		-webkit-border-radius : 5px;
+		-khtml-border-radius : 5px;
+		-moz-border-radius : 5px;
+	}
+	#avatar_banniere:hover {
+		transform : rotate(3600deg);
+		
+		border-radius : 50%;
+		-webkit-border-radius : 50%;
+		-khtml-border-radius : 50%;
+		-moz-border-radius : 50%;
+		
+		transition : all 2s;
+		-webkit-transition : all 2s;
+		-khtml-transition : all 2s;
+		-moz-transition : all 2s;
+	}
+	
+	#resume_banniere {
+		position : fixed;
+		top : 12.5px;
+		left : 440px;
+		height : 75px;
+		width : 100px;
+		border-right : 2px solid #FFFFFF;
+	}
+	
+	#div_messages_banniere {
+		position : fixed;
+		top : 0;
+		left : 540px;
+		height : 100px;
+		width : 345px;
+		padding : 0px 0px 0px 15px;
+		margin : 0;
+		overflow : hidden;
+	}
+	#messages_banniere {
+		animation : defilement_messages 20s linear 0s infinite alternate;
+		-webkit-animation : defilement_messages 20s linear 0s infinite alternate;
+	}
+	@keyframes defilement_messages {
+		0% {margin-top : 0px;}
+		50% {margin-top : -87.5px;}
+		100% {margin-top : -175px;}
+	}
+	@-webkit-keyframes defilement_messages {
+		0% {margin-top : 0px;}
+		50% {margin-top : -87.5px;}
+		100% {margin-top : -175px;}
+	}
+	
+	#utilisateurs_connectes_banniere {
+		position : fixed;
+		left : 918px;
+		top : 0;
+		width : 215px;
+		height : 100px;
+		color : #FFFFFF;
+	} #utilisateurs_connectes_banniere a {
+		color : #AAAAAA;
+	}
+	
+	/*Derniers posts*/
+	
+	#section_derniers_posts {
+		position : fixed;
+		top : 140px;
+		left : 0;
+		bottom : 0;
+		width : 295px;
+		padding : 0 10px 0 15px;
+		overflow : scroll;
+		background-color : #350035;
+		color : #FFFFFF;
+	} #section_derniers_posts h1 {
+		text-align : center;
+	} #section_derniers_posts p {
+		text-indent : 15px;
+	}
+	.commentaire_gauche {
+		margin-left : 10px;
+		width : 275px;
+		background-color : #AAAAAA;
+		color : #000000;
+	}
+	.commentaire_gauche textarea {
+		width : 275px;
+		padding : 0px;
+		margin : 0px;
+		margin-bottom : -5px;
+		resize : vertical;
+		height : auto;
+	} .commentaire_gauche input {
+		width : 275px;
+		padding : 0px;
+		border : none;
+		margin-top : -10px;
+		height : 20px;
+		background-color : #FFAA55;
+	}
+
+	/*Centre de la page*/
+	
+	section {
+		position : absolute;
+		top : 0;
+		left : 0;
+		width : 760px;
+		z-index : 5;
+	}
+	
+		/*En-tête*/
+		
+	header {
+		margin : 40px 0 0 0;
+		width : 750px;
+		background-color : #300030;
+		color : #FFFFFF;
+		font-size : large;
+		padding-bottom : 5px;
+		
+		border-top-right-radius: 20px;
+		border-bottom-right-radius: 20px;
+		-webkit-border-top-right-radius: 20px;
+		-webkit-border-bottom-right-radius: 20px;
+		-moz-border-radius-topright: 20px;
+		-moz-border-radius-bottomright: 20px;
+	}
+	#entete_gauche {
+		width : 500px;
+		border-right : 2px solid white;
+	}
+	#entete_haut_gauche {
+		border-bottom : 2px solid white;
+	} #entete_milieu_gauche {
+		border-bottom : 2px solid white;
+	} #entete_bas_gauche {
+	}
+	.image_entete {
+		width : 45px;
+		height : 45px;
+		
+		border-radius : 50%;
+		-webkit-border-radius : 50%;
+		-khtml-border-radius : 50%;
+		-moz-border-radius : 50%;
+	}
+	
+	#entete_droite {
+		position : absolute;
+		top : 40px;
+		left : 500px;
+	}
+		
+		/*Corps*/
+	article {
+		width : 500px;
+		margin : 0;
+		margin-top : 5px;
+		float : left;
+		border-right : 2px solid #300030;
+	}
+	.commentaire_corps {
+		margin-left : 10px;
+		width : 490px;
+		background-color : #AAA;
+	}
+	.commentaire_corps textarea {
+		width : 488px;
+		padding : 0px;
+		margin : 0px;
+		margin-bottom : -5px;
+		resize : vertical;
+		height : auto,
+	} .commentaire_corps input {
+		width : 490px;
+		padding : 0px;
+		border : none;
+		margin-top : -10px;
+		height : 20px;
+		background-color : #FFAA55;
+	}
+	
+		/*Annexes*/
+	aside {
+		width : 255px;
+		float : right;
+		margin : 0;
+	}
+	
+	/*Espace pubs*/
+	
+	#pub {
+		position : fixed;
+		top : 140px;
+		left : 1100px;
 		text-align : right;
 	}
 }
