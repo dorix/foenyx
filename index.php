@@ -538,10 +538,10 @@
 		</div>
 			
 		<div id="section_pub">
-			<p><a href="pub.png">
+			<p><a href="revue_responsive/">
 				<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRYiPARbu4bpobBHxCY33ADM4_iJ_-i4WSE9pSAI5cyy38jkIgM"/>
 			</a></p>
-			<p><a href="pub.png">
+			<p><a href="revue_responsive/">
 				<img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSEPOLt90m_ss_zNU5gKnW6NRXuCt--AicDfp0VPThtOdDu8i8w"/>
 			</a></p>
 		</div>

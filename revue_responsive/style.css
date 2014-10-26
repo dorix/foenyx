@@ -6,7 +6,7 @@
 		background-color : #FFFFFF;
 		position : absolute;
 		bottom : 0;
-		overflow : scroll;
+		overflow : auto;
 		z-index : 10;
 	}
 
@@ -218,7 +218,7 @@
 		bottom : 0;
 		width : 195px;
 		padding : 0 10px 0 15px;
-		overflow : scroll;
+		overflow : auto;
 		background-color : #350035;
 		color : #FFFFFF;
 	} #section_derniers_posts h1 {
@@ -539,7 +539,7 @@
 		bottom : 0;
 		width : 295px;
 		padding : 0 10px 0 15px;
-		overflow : scroll;
+		overflow : auto;
 		background-color : #350035;
 		color : #FFFFFF;
 	} #section_derniers_posts h1 {
